@@ -1,9 +1,10 @@
-# Activity / Lab / Assignment / Project Title
+# Activity / Lab 1 / Assignment / Project Title: Resume Website
 
 **[Optional]** If what is being submitted is an individual Lab or Assignment. Otherwise, include a brief one paragraph description about the project.
+This assignment is just a shortened version of my resume which is structured in html.
 
 * *Date Created*: 17 01 2025
-* *Last Modification Date*: DD MMM YYYY
+* *Last Modification Date*: 17 01 2025
 * *Lab URL*: GIT: https://git.cs.dal.ca/steinhauer/csci-3172/-/tree/main/labs/lab1?ref_type=heads 
 	     TIMBERLEA: https://web.cs.dal.ca/~steinhauer/csci3172/labs/lab1/
 
