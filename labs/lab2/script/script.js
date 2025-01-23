@@ -25,6 +25,10 @@ function areaRectangle(width, length){
     return length * width;
 }
 
+console.log(areaCircle());        
+console.log(arithmetic(number1, number2)); 
+console.log(areaRectangle(width, length));
+
 //A. The const variable has a block scope, meaning it can only be accessed within the block ({}) that it is defined inside of.
 //B. The let and const keywords were added to javascript ES6 in 2015. 
 //found here: https://www.w3schools.com/js/js_let.asp#:~:text=Before%20ES6%20(2015)%2C%20JavaScript,JavaScript%20keywords%3A%20let%20and%20const%20.
