@@ -8,7 +8,6 @@ const students = [
     { name: "Jake", grades: [75, null, 80, 82] },
     { name: "Lily", grades: [88, 84, 90, 91] },
 ];
-
 function calculateAverage(grades) {
     const validGrades = grades.filter((grade) => grade !== null);
     const sum = validGrades.reduce((a, b) => a + b, 0);

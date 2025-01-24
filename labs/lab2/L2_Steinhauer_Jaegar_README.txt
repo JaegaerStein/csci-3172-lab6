@@ -149,7 +149,6 @@ Copy and paste your code on the lines mentioned
 *Repeat as needed*
 
 
-
 ## Acknowledgments
 
 Found date of const and let from:  https://www.w3schools.com/js/js_let.asp#:~:text=Before%20ES6%20(2015)%2C%20JavaScript,JavaScript%20keywords%3A%20let%20and%20const%20.
