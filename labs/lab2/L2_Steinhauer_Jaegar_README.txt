@@ -2,8 +2,8 @@
 
 **[Optional]** If what is being submitted is an individual Lab or Assignment. Otherwise, include a brief one paragraph description about the project.
 
-* *Date Created*: 23 01 2025
-* *Last Modification Date*: 23 01 2025
+* *Date Created*: 24 01 2025
+* *Last Modification Date*: 24 01 2025
 * *Lab URL*: 
 Gitlab: https://git.cs.dal.ca/steinhauer/csci-3172/-/tree/main/labs/lab2?ref_type=heads
 Timberlea: https://web.cs.dal.ca/~steinhauer/csci3172/labs/lab2/
@@ -14,7 +14,13 @@ If what is being submitted is an individual Lab or Assignment, you may simply in
 
 * [Jaegar Steinhauer](Jaegar.Steinhauer@dal.ca) - (Creator)
 
+Question Answers:
+(a) Scope of a const variable: Block scope (limited to the block in which it is defined).
+(b) When were let and const added to JavaScript? ES6 (2015).
+(c) If you change let for var in your script(s), would it still work? Yes, but the block-scoping would change, potentially leading to bugs in larger codebases.
 
+I would like to mention that I had already submitted the wrong version of this lab which costed me multiple hours of work. 
+Please try to not put out the wrong instructions again. 
 
 ## Built With
 
