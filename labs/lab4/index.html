@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+        .error { color: red; }
+    </style>
+</head>
+<body>
+    <h2>Register</h2>
+    <form id="registerForm">
+        <label>Email: <input type="email" id="email" required></label>
+        <span id="emailError" class="error"></span>
+        <br>
+        <label>Username: <input type="text" id="username" required></label>
+        <span id="userError" class="error"></span>
+        <br>
+        <label>Password: <input type="password" id="password" required></label>
+        <span id="passError" class="error"></span>
+        <br>
+        <label>Confirm Password: <input type="password" id="confirmPassword" required></label>
+        <span id="confirmError" class="error"></span>
+        <br>
+        <button type="submit">Register</button>
+    </form>
+    <p id="successMessage" style="color:green;"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
