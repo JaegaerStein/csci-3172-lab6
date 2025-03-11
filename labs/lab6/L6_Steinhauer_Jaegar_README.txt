@@ -11,7 +11,7 @@
 
 If what is being submitted is an individual Lab or Assignment, you may simply include your name and email address. Otherwise list the members of your group.
 
-* [Name](email@dal.ca) - (Role)
+* [Jaegar Steinhauer](jg225260@dal.ca) - (Creator)
 * [Name](email@dal.ca) - (Role)
 * [Name](email@dal.ca) - (Role)
 * [Name](email@dal.ca) - (Role)
