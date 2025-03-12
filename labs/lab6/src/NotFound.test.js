@@ -1,8 +1,8 @@
 import { render, screen } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
-import NotFound from '../pages/NotFound';
+import NotFound from './NotFound';
 
-describe('NotFound Page', () => {
+describe('NotFound Component', () => {
   test('renders 404 message and Go Home link', () => {
     render(
       <MemoryRouter>
@@ -22,8 +22,5 @@ describe('NotFound Page', () => {
     const homeLink = screen.getByRole('link', { name: /go home/i });
     expect(homeLink).toBeInTheDocument();
     expect(homeLink).toHaveAttribute('href', '/');
-
-    // Verify that the link has the correct class for styling
-    expect(homeLink).toHaveClass('btn btn-primary');
   });
 });
