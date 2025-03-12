@@ -11,7 +11,7 @@ const About = () => {
           <li>React, Bootstrap</li>
           <li>Git, Agile Development</li>
           <li>Proficient in Microsoft Office Suite, Adobe Illustrator, and Photoshop.</li>
-          <li></li>
+          <li>Basketball player and coach, Climber, and Skier</li>
         </ul>
       </div>
     );
