@@ -14,11 +14,14 @@
     "web-vitals": "^2.1.4"
   },
   "jest": {
+    "moduleNameMapper": {
+      "\\.(css|scss)$": "identity-obj-proxy"
+    },
     "transform": {
-      "^.+\\.[tj]sx?$": "babel-jest"
+      "^.+\\.(js|jsx)$": "babel-jest"
     },
     "transformIgnorePatterns": [
-      "node_modules/(?!(react-router-dom)/)"
+    "node_modules/(?!(react-router-dom)/)"
     ]
   },
   "scripts": {
@@ -44,5 +47,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "identity-obj-proxy": "^3.0.0"
   }
 }

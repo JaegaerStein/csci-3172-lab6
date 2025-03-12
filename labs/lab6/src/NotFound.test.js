@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
-import NotFound from './NotFound';
+import NotFound from '../pages/NotFound';
 
 describe('NotFound Page', () => {
   test('renders 404 message and Go Home link', () => {
